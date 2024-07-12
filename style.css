@@ -35,7 +35,7 @@ html, body, #main {
 }
 
 .nav-part-2 h1 {
-    font-size: 17px;
+    /* font-size: 17px; */
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -60,4 +60,34 @@ html, body, #main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+/* #img1 {
+    transform: translate(-50%, -50%) rotate(-40deg);
+} */
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
 }
