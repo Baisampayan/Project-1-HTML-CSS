@@ -91,3 +91,14 @@ img {
 #img3 {
     transform: translate(-50%, -50%) rotate(-10deg);
 }
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
