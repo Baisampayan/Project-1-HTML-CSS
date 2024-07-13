@@ -1,1 +1,1 @@
-Creating the project only with HTML and CSS
+Creating the Dribble project only with HTML and CSS

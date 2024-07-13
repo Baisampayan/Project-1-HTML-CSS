@@ -102,3 +102,37 @@ img {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.footer-part1 h4, #footer-p3-inner2 h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-part2 {
+    width: 75px;
+    height: 40px; /* as the half of the width */
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 1px solid #000000;
+    border-bottom: 0;
+}
+
+.footer-part2 i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+
+#footer-p3-inner1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#footer-p3-inner1 i {
+    border: 0.5px solid #000000;
+    padding: 0 3px;
+    border-radius: 3px;
+}
